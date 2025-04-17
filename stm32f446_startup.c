@@ -246,8 +246,7 @@ uint32_t vector_tbl[] __attribute__((section(".isr_vector_tbl")))={
   (uint32_t)&FPU_IRQHandler,               			/* FPU global interrupt                                               */
   0,                            			/* Reserved                                                           */
   0,                            			/* Reserved                                                           */
-  (uint32_t)&SPI4_IRQHandler,              			/* SPI 4 global interrupt                                             */
-  (uint32_t)&SPI5_IRQHandler              			/* SPI 5 global interrupt */    
+  (uint32_t)&SPI4_IRQHandler,              			/* SPI 4 global interrupt                                             */  
 
 
 
